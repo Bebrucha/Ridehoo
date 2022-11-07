@@ -1,2 +1,2 @@
 # Ridehoo
- React app
+ React native app
