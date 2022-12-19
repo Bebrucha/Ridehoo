@@ -49,8 +49,6 @@ function Home() {
       <Tab.Screen name="Add ride" component={AddRideScreen} />
       <Tab.Screen name="Your rides" component={YourRidesScreen} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
-      <Tab.Screen name="temp" component={Client_pick_up} />
-      <Tab.Screen name="tempas" component={Driver_pick_up} />
     </Tab.Navigator>
   );
 }

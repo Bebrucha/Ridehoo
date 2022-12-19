@@ -79,7 +79,7 @@ export function Log_in_page() {
           <Text style={styles.buttonText}>Log in</Text>
         </TouchableHighlight>
       </View>
-      {IsSignedIn === true
+      {IsSignedIn === false
         ? navigation.navigate("Home")
         : console.log("error while signing in")}
 
